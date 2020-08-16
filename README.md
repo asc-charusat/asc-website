@@ -1,1 +1,1 @@
-# [ASC - WEBSILE](https://asc.charusat.ac.in/)
+# [ASC - WEBSITE](https://asc.charusat.ac.in/)
