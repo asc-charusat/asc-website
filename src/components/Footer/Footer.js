@@ -39,6 +39,15 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
+                  href="https://github.com/asc-charusat"
+                  className={classes.block}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ><i className={classes.socialIcons + " fa fa-github"} />
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
                   href="mailto:asc.club@charusat.edu.in"
                   className={classes.block}
                   target="_blank"
@@ -49,7 +58,7 @@ export default function Footer(props) {
           </List>
         </div>
         <div className={classes.right}>
-          <img src={clogo} alt="CHARUSAT LOGO" style={{maxHeight:"40px"}}/>
+          <a target="_blank" rel="noopener noreferrer" href="https://charusat.ac.in/"><img src={clogo} alt="CHARUSAT LOGO" style={{maxHeight:"40px"}}/></a>
         </div>
       </div>
     </footer>

@@ -12,6 +12,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import styles from "assets/jss/material-kit-react/views/home";
 import logo from "assets/img/favicon.png";
+import aws from "assets/img/aws-member.png";
 import Button from "components/CustomButtons/Button.js";
 const useStyles = makeStyles(styles);
 
@@ -38,8 +39,8 @@ export default function Components(props) {
       <Parallax image={require("assets/img/home-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer justify="center" alignItems="center">
-            <GridItem xs={4} sm={4} md={2}>
-                <img src={logo} alt="ASC-CHARUSAT" className={imageClasses}/>
+            <GridItem xs={4} sm={4} md={2} >
+              <img src={logo} alt="ASC-CHARUSAT" className={imageClasses}/>
             </GridItem>
             <GridItem xs={12} sm={12} md={10}>
               <div className={classes.brand}>
@@ -47,18 +48,12 @@ export default function Components(props) {
                 <h3 className={classes.subtitle}>
                   Seed Cloud, Get Rain On Demand
                 </h3>
-                <Button
-                  href="/about"
-                  color="info"
-                  size="sm"
-                  style={{marginTop:"20px"}}
-                  round
-                  >
-                  <h4>Learn More</h4>
-                </Button>
+                <br /> 
+                <img src={aws} height="70"/>
               </div>
             </GridItem>
           </GridContainer>
+          
         </div>
       </Parallax>
       <Footer />
