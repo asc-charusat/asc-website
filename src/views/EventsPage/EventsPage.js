@@ -12,6 +12,7 @@ import Grow  from '@material-ui/core/Grow';
 // import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/material-kit-react/views/eventsPage.js";
 import PastEvents from './Sections/PastEvents';
+import UpcomingEvents from './Sections/UpcomingEvents'
 
 const dashboardRoutes = [];
 
@@ -46,6 +47,7 @@ export default function EventsPage(props) {
       <Grow in>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.containerFluid}>
+          <UpcomingEvents />
           <PastEvents />
         </div>
       </div>

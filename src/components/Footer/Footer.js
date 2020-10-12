@@ -48,6 +48,15 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
+                  href="https://medium.com/asc-charusat"
+                  className={classes.block}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ><i className={classes.socialIcons + " fab fa-medium"}/>
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+              <a
                   href="mailto:asc.club@charusat.edu.in"
                   className={classes.block}
                   target="_blank"
