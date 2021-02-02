@@ -18,6 +18,7 @@
     "react-dom": "16.13.1",
     "react-iframe": "^1.8.0",
     "react-loader-spinner": "^3.1.14",
+    "react-modal": "^3.12.1",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "0.26.1",

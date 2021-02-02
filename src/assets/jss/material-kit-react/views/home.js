@@ -1,8 +1,10 @@
 import { container } from "assets/jss/material-kit-react.js";
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
+import modalStyle from "assets/jss/material-kit-react/modalStyle.js"
 const homeStyle = {
   container,
   ...imagesStyle,
+  ...modalStyle,
   brand: {
     color: "#FFFFFF",
     textAlign: "left"
