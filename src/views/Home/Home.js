@@ -96,8 +96,8 @@ const Modal = ()=>{
         }}
         {...rest} />
       <Parallax image={require("assets/img/home-bg.jpg")}>
-      <Modal imag={shapai}>
-      </Modal>
+      {/* <Modal imag={shapai}>
+      </Modal> */}
         <div className={classes.container}>
           <GridContainer justify="center" alignItems="center">
             <GridItem xs={4} sm={4} md={2} >
