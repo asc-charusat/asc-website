@@ -22,7 +22,7 @@ export default function PastEvents() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={12}>
+        {/* <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.title}>Upcoming Events</h2>
         </GridItem>
         <GridItem xs={12} sm={12} md={4}>
@@ -44,7 +44,7 @@ export default function PastEvents() {
               </p>
             </CardBody>
           </Card>
-        </GridItem>
+        </GridItem> */}
       </GridContainer>
      </div>
   );

@@ -26,7 +26,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Link className={classes.navLink} to="/contact">Contact Us</Link>
       </ListItem>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Button
           color="rose"
           target="_blank"
@@ -35,7 +35,7 @@ export default function HeaderLinks(props) {
           >
           Become a Member
         </Button>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }

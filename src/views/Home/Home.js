@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 import Header from "components/Header/Header.js";
@@ -15,7 +15,7 @@ import CustomButton from "components/CustomButtons/Button"
 import styles from "assets/jss/material-kit-react/views/home";
 import logo from "assets/img/favicon.png";
 import aws from "assets/img/aws-member.png";
-import shapai from "assets/img/events/january-shapai.jpeg"
+// import shapai from "assets/img/events/january-shapai.jpeg"
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
@@ -59,19 +59,24 @@ const Modal = ()=>{
   function closeModal(){
     setIsOpen(false);
   }
+
+  useEffect(()=>{
+    openModal()
+  },[])
  
     return (
       <div>
-        {/* <button onClick={openModal}>Open Modal</button> */}
+        <p>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
+        <button onClick={openModal}>Open Modal</button>
         <ReactModal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
-          onRequestClose={closeModal}
+          // onRequestClose={closeModal}
           style={customStyles}
           contentLabel="Example Modal"
         >
         
-          <img src={shapai} style={{width:"100%", zIndex:9}} className={classes.imgRaised} onClick={()=>{}}></img>
+          {/* <img src={shapai} style={{width:"100%", zIndex:9}} className={classes.imgRaised} onClick={()=>{}}></img> */}
         <div style={{marginRight:"-1px"}}></div>
 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFoH8HuMofvjzbSnlYiOyyEXMmNydv4HstPTAJd-1L-9X8GA/viewform">

@@ -17,19 +17,15 @@ import styles from "assets/jss/material-kit-react/views/teamPageSections/teamSty
 
 import pds from "assets/img/team/pds.jpeg";
 import spp from "assets/img/team/spp.jpeg";
-import prv from "assets/img/team/prv.jpg";
 import mp from "assets/img/team/mp.jpg";
 import bd from "assets/img/team/bd.jpg";
-import aks from "assets/img/team/aks.jpg";
-import ap from "assets/img/team/ap.jpg";
-import ans from "assets/img/team/ans.jpg";
+import pb from "assets/img/team/pb.jpg";
+import hv from "assets/img/team/hv.jpg";
+import bs from "assets/img/team/bs.jpg";
+import mb from "assets/img/team/mb.jpg";
 import mr from "assets/img/team/mr.jpg";
-import mj from "assets/img/team/mj.jpg";
-import nk from "assets/img/team/nk.jpg";
-import np from "assets/img/team/np.jpg";
-import ss from "assets/img/team/ss.jpeg";
-import sa from "assets/img/team/sa.jpg";
-import sua from "assets/img/team/sua.jpg";
+import vp from "assets/img/team/vp.jpg";
+import hp from "assets/img/team/hp.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -55,7 +51,7 @@ export default function TeamSection() {
                 Sandip Patel
                 <br />
                 <small className={classes.smallTitle}>
-                  AWS Accredited Instructor
+                  AWS Accredited Instructor, AWS Community Builder <br /> & ASC Club Lead  
                 </small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
@@ -88,7 +84,7 @@ export default function TeamSection() {
               <h3 className={classes.cardTitle}>
                 Dr. Parth Shah
                 <br />
-                <small className={classes.smallTitle}>Head of Department</small>
+                <small className={classes.smallTitle}>Head of Department & Club Lead </small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
@@ -105,6 +101,9 @@ export default function TeamSection() {
           </GridItem>
         </GridContainer>
         <h2 className={classes.subtitle}>Our Team</h2>
+
+{/*  */}
+
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
@@ -114,7 +113,7 @@ export default function TeamSection() {
               <h3 className={classes.cardTitle}>
                 Bansi Delwadia
                 <br />
-                <small className={classes.smallTitle}>Club Lead</small>
+                <small className={classes.smallTitle}>ASC Student Club Lead</small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
@@ -138,39 +137,12 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={prv} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Pranav Bhuchhada
-                <br />
-                <small className={classes.smallTitle}>Technical Advisor</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/pranavbhuchhada"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/pranavbhuchhada"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+        </GridContainer>
+
+{/*  */}
+
+          <GridContainer justify="center">
+            <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
                 <img src={mp} alt="..." className={imageClasses} />
@@ -178,7 +150,7 @@ export default function TeamSection() {
               <h3 className={classes.cardTitle}>
                 Manush Parikh
                 <br />
-                <small className={classes.smallTitle}>Technical Advisor</small>
+                <small className={classes.smallTitle}>Alumini, Advisor</small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
@@ -202,21 +174,22 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-        </GridContainer>
-        <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={4}>
+
+{/*  */}
+          
+          <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={aks} alt="..." className={imageClasses} />
+                <img src={pb} alt="..." className={imageClasses} />
               </GridItem>
               <h3 className={classes.cardTitle}>
-                Akshit Soneji
+                Pranav Bhuchhada
                 <br />
-                <small className={classes.smallTitle}>Web Team</small>
+                <small className={classes.smallTitle}>Alumini, Advisor</small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
-                  href="https://www.linkedin.com/in/akshit-soneji/"
+                  href="https://www.linkedin.com/in/pranavbhuchhada"
                   target="_blank"
                   justIcon
                   color="transparent"
@@ -225,7 +198,7 @@ export default function TeamSection() {
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
                 <Button
-                  href="https://github.com/AKSHIT989"
+                  href="https://github.com/pranavbhuchhada"
                   target="_blank"
                   justIcon
                   color="transparent"
@@ -236,19 +209,105 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+
+{/*  */}
+
+          
+        </GridContainer>
+
+{/*  */}
+
+        <GridContainer justify="center">
+          <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={ap} alt="..." className={imageClasses} />
+                <img src={hv} alt="..." className={imageClasses} />
               </GridItem>
               <h3 className={classes.cardTitle}>
-                Aniket Patel
+                Harsh Viradia
+                <br />
+                <small className={classes.smallTitle}>Technical Advisor</small>
+              </h3>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  href="https://www.linkedin.com/in/harsh-viradia-3a5386191/"
+                  target="_blank"
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-linkedin"} />
+                </Button>
+                <Button
+                  href="https://github.com/harshviradia"
+                  target="_blank"
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-github"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+{/*  */}
+
+          <GridItem xs={12} sm={12} md={3}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
+                <img src={bs} alt="..." className={imageClasses} />
+              </GridItem>
+              <h3 className={classes.cardTitle}>
+                Brughu Sharma
+                <br />
+                <small className={classes.smallTitle}>Technical Advisor</small>
+              </h3>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  href="https://www.linkedin.com/in/bhrugu-sharma"
+                  target="_blank"
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-linkedin"} />
+                </Button>
+                <Button
+                  href="https://github.com/kakashi96"
+                  target="_blank"
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-github"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+{/*  */}
+
+          
+        </GridContainer>
+
+{/*  */}
+
+        <GridContainer justify="center">
+
+        <GridItem xs={12} sm={12} md={3}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
+                <img src={mb} alt="..." className={imageClasses} />
+              </GridItem>
+              <h3 className={classes.cardTitle}>
+                Mayur Bhatti
                 <br />
                 <small className={classes.smallTitle}>Cloud Team</small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
-                  href="https://www.linkedin.com/in/aniket-patel-2a52851a3"
+                  href="https://www.linkedin.com/in/themaybhatti/"
                   target="_blank"
                   justIcon
                   color="transparent"
@@ -257,7 +316,7 @@ export default function TeamSection() {
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
                 <Button
-                  href="https://github.com/aniketpatel12"
+                  href="https://github.com/themaybhatti"
                   target="_blank"
                   justIcon
                   color="transparent"
@@ -268,19 +327,22 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+
+{/*  */}
+
+          <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={ans} alt="..." className={imageClasses} />
+                <img src={vp} alt="..." className={imageClasses} />
               </GridItem>
               <h3 className={classes.cardTitle}>
-                Anushka Sandesara
+                Viraj Patva
                 <br />
-                <small className={classes.smallTitle}>ML Team</small>
+                <small className={classes.smallTitle}>Content Writer</small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
-                  href="https://www.linkedin.com/in/anushka-sandesara-0a0870179/"
+                  href="https://www.linkedin.com/in/viraj-patva-19it117/"
                   target="_blank"
                   justIcon
                   color="transparent"
@@ -289,7 +351,7 @@ export default function TeamSection() {
                   <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
                 <Button
-                  href="https://github.com/anusandesara"
+                  href="https://github.com/19IT117"
                   target="_blank"
                   justIcon
                   color="transparent"
@@ -300,9 +362,45 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-        </GridContainer>
-        <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={4}>
+
+{/*  */}
+          
+          <GridItem xs={12} sm={12} md={3}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
+                <img src={hp} alt="..." className={imageClasses} />
+              </GridItem>
+              <h3 className={classes.cardTitle}>
+                Heer Patel
+                <br />
+                <small className={classes.smallTitle}>Graphic Designer</small>
+              </h3>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  href="https://www.linkedin.com/in/heer-patel-700235206/"
+                  target="_blank"
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-linkedin"} />
+                </Button>
+                <Button
+                  href="https://github.com/heerpatell"
+                  target="_blank"
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-github"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+
+{/*  */}
+
+          <GridItem xs={12} sm={12} md={3}>
             <Card plain>
               <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
                 <img src={mr} alt="..." className={imageClasses} />
@@ -310,7 +408,7 @@ export default function TeamSection() {
               <h3 className={classes.cardTitle}>
                 Maharshi Relia
                 <br />
-                <small className={classes.smallTitle}>Creative Team</small>
+                <small className={classes.smallTitle}>Graphic Designer</small>
               </h3>
               <CardFooter className={classes.justifyCenter}>
                 <Button
@@ -334,201 +432,11 @@ export default function TeamSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={mj} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Muskan Jindal
-                <br />
-                <small className={classes.smallTitle}>Cloud Team</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/muskan-jindal-078187182/"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/muskanjindal24"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={nk} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Namrata Khatwani
-                <br />
-                <small className={classes.smallTitle}>Creative Team</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/namrata-khatwani"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/namrata-khatwani"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
         </GridContainer>
-        <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={np} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Neel Patel
-                <br />
-                <small className={classes.smallTitle}>ML Team</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/neel-patel-b81734151"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/neel004"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={ss} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Shreyanshi Shah
-                <br />
-                <small className={classes.smallTitle}>Creative Team</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/shreyanshishah/"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/shreyanshi0909"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={sa} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Shyamkumar Aghera
-                <br />
-                <small className={classes.smallTitle}>Cloud Team</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/shyamkumar-aghera-88b726171"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/agherashyam2000"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={9} className={classes.itemGrid}>
-                <img src={sua} alt="..." className={imageClasses} />
-              </GridItem>
-              <h3 className={classes.cardTitle}>
-                Sunny Agrawal
-                <br />
-                <small className={classes.smallTitle}>Cloud Team</small>
-              </h3>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  href="https://www.linkedin.com/in/sunny-agrawal-025a71181/"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-                <Button
-                  href="https://github.com/SunnyAgrawal1208"
-                  target="_blank"
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-github"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-        </GridContainer>
+
+{/*  */}
+
+        
       </div>
     </div>
   );

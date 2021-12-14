@@ -1,5 +1,5 @@
 {
-  "name": "ASC-CHARUSAT",
+  "name": "@asc-charusat/website",
   "version": "2.0.0",
   "description": "ASC-CHARUSAT",
   "private": true,
@@ -34,6 +34,8 @@
     "prettier": "2.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",

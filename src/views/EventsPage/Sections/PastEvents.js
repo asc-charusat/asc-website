@@ -12,6 +12,7 @@ import styles from "assets/jss/material-kit-react/views/EventsPageSection/PastEv
 import event1 from "assets/img/events/event1.png";
 import event2 from "assets/img/events/event2.jpg";
 import event3 from "assets/img/events/event3.png";
+import OctoberSeries from "assets/img/events/october-series.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -69,6 +70,26 @@ export default function PastEvents() {
               ASC Webinar
               <br />
               <small className={classes.smallTitle}>Date: 15 - 16 April, 2020</small>
+            </h4>
+            <CardBody>
+              <p className={classes.description}>
+              </p>
+            </CardBody>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={4}>
+          <Card plain>
+            <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+              <img src={OctoberSeries} alt="..." className={imageClasses} />
+            </GridItem>
+            <h4 className={classes.cardTitle}>
+              October-Series
+              <br />
+              <small className={classes.smallTitle}>Date: 15th October, 2020: Amazon App Stream</small>
+              <br />
+              <small className={classes.smallTitle}>Date: 16th October, 2020: Security Cost Pillar</small>
+              <br />
+              <small className={classes.smallTitle}>Date: 17th October, 2020: Docker on AWS</small>
             </h4>
             <CardBody>
               <p className={classes.description}>

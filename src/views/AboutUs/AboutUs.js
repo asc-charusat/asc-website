@@ -48,7 +48,7 @@ export default function AboutPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <Grow in>
+      {/* <Grow in>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <WeDoSection />
@@ -66,7 +66,7 @@ export default function AboutPage(props) {
           </Button>
         </div>
       </div>
-      </Grow>
+      </Grow> */}
       <Footer />
     </div>
   );
