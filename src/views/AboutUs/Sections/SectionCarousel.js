@@ -7,12 +7,16 @@ import Card from "components/Card/Card.js";
 
 import styles from "assets/jss/material-kit-react/views/AboutUsSections/carouselStyle.js";
 
-import image1 from "assets/img/about/image1.jpeg";
-import image2 from "assets/img/about/image2.jpeg";
-import image3 from "assets/img/about/image3.jpeg";
-import image4 from "assets/img/about/image4.jpeg";
+import image1 from "assets/img/about/image1.jpg";
+import image2 from "assets/img/about/image2.jpg";
+import image3 from "assets/img/about/image3.jpg";
+import image4 from "assets/img/about/image4.jpg";
 import image5 from "assets/img/about/image5.jpeg";
 import image6 from "assets/img/about/image6.jpeg";
+import image7 from "assets/img/about/image7.jpeg";
+import image8 from "assets/img/about/image8.jpeg";
+import image9 from "assets/img/about/image9.jpeg";
+import image10 from "assets/img/about/image10.jpeg";
 
 
 const useStyles = makeStyles(styles);
@@ -51,6 +55,18 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img src={image6} alt="Image6" className="slick-image" />
+                </div>
+                <div>
+                  <img src={image7} alt="Image7" className="slick-image" />
+                </div>
+                <div>
+                  <img src={image8} alt="Image8" className="slick-image" />
+                </div>
+                <div>
+                  <img src={image9} alt="Image9" className="slick-image" />
+                </div>
+                <div>
+                  <img src={image10} alt="Image10" className="slick-image" />
                 </div>
               </Carousel>
             </Card>

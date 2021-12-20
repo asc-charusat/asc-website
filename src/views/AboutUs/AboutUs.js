@@ -48,13 +48,13 @@ export default function AboutPage(props) {
           </GridContainer>
         </div>
       </Parallax>
-      {/* <Grow in>
+      <Grow in>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <WeDoSection />
           <Domains />
           <SectionCarousel />
-          <Button 
+          {/* <Button 
             style={{marginBottom:"50px",left:"50%",transform: "translate(-50%,0%)"}}
             color="rose"
             size="lg"
@@ -63,10 +63,10 @@ export default function AboutPage(props) {
             round 
             >
             Become a Member
-          </Button>
+          </Button> */}
         </div>
       </div>
-      </Grow> */}
+      </Grow>
       <Footer />
     </div>
   );
