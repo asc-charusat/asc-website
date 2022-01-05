@@ -20,7 +20,7 @@ import spp from "assets/img/team/spp.jpeg";
 import mp from "assets/img/team/mp.jpg";
 import bd from "assets/img/team/bd.jpg";
 import pb from "assets/img/team/pb.jpg";
-import hv from "assets/img/team/hv.jpg";
+import hv from "assets/img/team/hv.JPG";
 import bs from "assets/img/team/bs.jpg";
 import mb from "assets/img/team/mb.jpg";
 import mr from "assets/img/team/mr.jpg";
