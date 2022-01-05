@@ -10,7 +10,6 @@ import styles from "assets/jss/material-kit-react/views/AboutUsSections/carousel
 import image1 from "assets/img/about/image1.jpg";
 import image2 from "assets/img/about/image2.jpg";
 import image3 from "assets/img/about/image3.jpg";
-import image4 from "assets/img/about/image4.jpg";
 import image5 from "assets/img/about/image5.jpeg";
 import image6 from "assets/img/about/image6.jpeg";
 import image7 from "assets/img/about/image7.jpeg";
@@ -46,9 +45,6 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img src={image3} alt="Image3" className="slick-image" />
-                </div>
-                <div>
-                  <img src={image4} alt="Image4" className="slick-image" />
                 </div>
                 <div>
                   <img src={image5} alt="Image5" className="slick-image" />
