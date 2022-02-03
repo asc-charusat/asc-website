@@ -15,7 +15,7 @@ import CustomButton from "components/CustomButtons/Button"
 import styles from "assets/jss/material-kit-react/views/home";
 import logo from "assets/img/favicon.png";
 import aws from "assets/img/aws-member.png";
-// import shapai from "assets/img/events/january-shapai.jpeg"
+import shapai from "assets/img/events/Bootcamp-AWS-Cloud-Practitioner.jpg"
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
@@ -66,20 +66,20 @@ const Modal = ()=>{
  
     return (
       <div>
-        <p>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
-        <button onClick={openModal}>Open Modal</button>
+        {/* <p>loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem</p>
+        <button onClick={openModal}>Open Modal</button> */}
         <ReactModal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
-          // onRequestClose={closeModal}
+          onRequestClose={closeModal}
           style={customStyles}
           contentLabel="Example Modal"
         >
         
-          {/* <img src={shapai} style={{width:"100%", zIndex:9}} className={classes.imgRaised} onClick={()=>{}}></img> */}
+          <img src={shapai} style={{width:"100%", zIndex:9}} className={classes.imgRaised} onClick={()=>{}}></img>
         <div style={{marginRight:"-1px"}}></div>
 
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFoH8HuMofvjzbSnlYiOyyEXMmNydv4HstPTAJd-1L-9X8GA/viewform">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScmrk2tGNW2BUxpWaypBUwbrTPka_esCNAdLXzFmkEPzgyUKw/viewform?usp=sf_link">
         <CustomButton className={classes.button} fullWidth="true" color="primary">Register here</CustomButton>
         </a>
         {/* </div> */}
@@ -101,8 +101,8 @@ const Modal = ()=>{
         }}
         {...rest} />
       <Parallax image={require("assets/img/home-bg.jpg")}>
-      {/* <Modal imag={shapai}>
-      </Modal> */}
+      <Modal imag={shapai}>
+      </Modal>
         <div className={classes.container}>
           <GridContainer justify="center" alignItems="center">
             <GridItem xs={4} sm={4} md={2} >

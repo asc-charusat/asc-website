@@ -10,6 +10,7 @@ import "assets/scss/material-kit-react.scss?v=1.9.0";
 import Home from "views/Home/Home";
 import AboutPage from "views/AboutUs/AboutUs";
 import EventsPage from "views/EventsPage/EventsPage";
+import RegisterYourSelf from "views/Registration/RegistrationPage";
 import TeamPage from "views/TeamPage/TeamPage";
 import ContactPage from "views/ContactPage/ContactPage";
 
@@ -21,6 +22,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/about" component={AboutPage} />
       <Route path="/events" component={EventsPage} />
+      <Route path="/RegisterYourSelf" component={RegisterYourSelf} />
       <Route path="/team" component={TeamPage} />
       <Route path="/contact" component={ContactPage} />
       <Route path="/" component={Home} />

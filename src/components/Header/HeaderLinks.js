@@ -21,6 +21,9 @@ export default function HeaderLinks(props) {
         <Link className={classes.navLink} to="/events">Events</Link>
       </ListItem>
       <ListItem className={classes.listItem}>
+        <Link className={classes.navLink} to="/RegisterYourSelf">Register Your Self</Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Link className={classes.navLink} to="/team">Our Team</Link>
       </ListItem>
       <ListItem className={classes.listItem}>
