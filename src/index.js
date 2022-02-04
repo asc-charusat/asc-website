@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
-import { Router, Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 
 
 import "assets/scss/material-kit-react.scss?v=1.9.0";
@@ -14,11 +14,11 @@ import RegisterYourSelf from "views/Registration/RegistrationPage";
 import TeamPage from "views/TeamPage/TeamPage";
 import ContactPage from "views/ContactPage/ContactPage";
 
-var hist = createBrowserHistory();
+var hist = createBrowserHistory()
 
 ReactDOM.render(
   <>
-  <Router history={hist}>
+  <HashRouter history={hist}>
     <Switch>
       <Route path="/about" component={AboutPage} />
       <Route path="/events" component={EventsPage} />
@@ -27,7 +27,7 @@ ReactDOM.render(
       <Route path="/contact" component={ContactPage} />
       <Route path="/" component={Home} />
     </Switch>
-  </Router>
+  </HashRouter>
   </>,
   document.getElementById("root")
 );
